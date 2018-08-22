@@ -18,7 +18,7 @@ $(document).ready(function() {
         suggestion_word_plural = 'suggestions',
         button_clear_title = 'clear this field',
         button_clear_text = 'X',
-        case_sensitive = 'yes',
+        case_sensitive = 'no',
         min_length = 0,
         limit_number_suggestions = 666,
         search_option = 'beginning', // or 'containing'
