@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    
     /*
      * jQuery accessible and keyboard-enhanced autocomplete list
      * @version v1.6.1
@@ -367,5 +367,7 @@ $(document).ready(function() {
 
 
     }
+
+    $(".container").focus();
 
 });
