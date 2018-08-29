@@ -367,7 +367,7 @@ $(document).ready(function() {
 
 
     }
-    $(".sr-only").append("<span>su pagina se esta cargando</span>")
+    //$(".sr-only").append("<span>su pagina se esta cargando</span>")
     setTimeout(()=>{
         $(".container").focus();
     }, 7000)
