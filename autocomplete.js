@@ -367,7 +367,9 @@ $(document).ready(function() {
 
 
     }
-
-    $(".container").focus();
+    $(".sr-only").append("<span>su pagina se esta cargando</span>")
+    setTimeout(()=>{
+        $(".container").focus();
+    }, 3000)
 
 });
